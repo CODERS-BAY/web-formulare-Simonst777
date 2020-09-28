@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Übung6</title>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+    </head>
+
+    <header>
+        <div class="container">
+            <a id="logo">
+                <img src="images/logo1.png" alt="logo">
+            </a>
+        </div>
+    </header>
+
+    <body>
+        <section id="personal">
+            <div>
+                <h2>Persönliches</h2>
+                <form method="POST" action="contact.php">
+                   <div class="men">
+                    <select  name="salutation">
+                        <option value="men">Mann</option>
+                        <option value="women">Frau</option>
+                    </select>
+                    
+                    
+                    <select name="title" multiple="multiple">
+                        <option value="ba">BA</option>
+                        <option value="mag">Mag</option>
+                        <option value="MA">MA</option>
+                        <option value="Dr">Dr</option>
+                        <option value="Dr">Dr</option>
+                        <option value="Dr">Dr</option>
+                    </select>
+                    </div>      
+
+                    <input type="text" name="fistname" placeholder="Vorname">
+                    <input type="text" name="lastame" placeholder="Nachname">
+                    <input type="date" name="age">
+                    <input type="text" name="phonenumber" placeholder="Telefonnummer">
+                    <input type="email" name="email" placeholder="Email">
+
+                </form>
+            </div>
+        </section>
+
+        <section id="residence">
+            <div class="container">
+                <h2>Aufenhalt</h2>
+                <form method="POST" action="contact.php">
+                  
+                    <div class="anreise">
+                    <input type="date" name="anreise">
+                    <input type="date" name="abreise">
+                    </div>
+
+                    <div class="room">
+                        <input type="radio" name="room" checked>
+                        <label for="radio">Sommerzimmer</label>
+                        <input type="radio" name="room">
+                        <label for="radio">Herbstzimmer</label>
+                        <input type="radio" name="room">
+                        <label for="radio">Winterzimmer</label>
+                        <input type="radio" name="room">
+                        <label for="radio">Frühlingszimmer</label>
+                    </div>
+
+                    <div class="wellness">
+                        <label for="massage">Massage</label>
+                        <input type="checkbox" name="massage">
+                        <label for="spa">Spa</label>
+                        <input type="checkbox" name="spa">
+                        <label for="schwimmen">Schwimmen</label>
+                        <input type="checkbox" name="schwimmen">
+                        <label for="tennis">Tennis</label>
+                        <input type="checkbox" name="tennis">
+                        <label for="kinoabend">Kinoabend</label>
+                        <input type="checkbox" name="kinoabend">
+                        <label for="bowling">Bownling</label>
+                        <input type="checkbox" name="bowling">
+                    </div>
+                        
+                
+                </div>
+                </form>
+            
+        </section>
+
+        <section id="payment">
+            <form method="POST" action="contact.php"></form>
+            <div>
+                <h2>Bezahlung</h2>
+                
+                    <select class="payment" name="payment">
+                        <option value="Sofortüberweisung">Sofortüberweisung</option>
+                        <option value="Kreditkarte">Kreditkarte</option>
+                        <option value="Rechnung">Rechnung</option>
+                        <option value="Vorkasse">Vorkasse</option>
+                    </select>
+                    <input class="payment" type="text" name="Kartennummer" placeholder="Kartennummer">
+                    
+                    <a id="bild">
+                    <img src="images/geld.jpg" alt="image">
+                    </a>
+            </div>
+            </form>
+           
+        </section>
+
+    </body>
+</html>

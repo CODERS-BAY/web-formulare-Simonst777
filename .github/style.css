@@ -1,0 +1,90 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+
+
+div a {
+    margin: 50px;
+    
+    
+}
+
+#personal div {
+    background-color: aqua;
+    border-radius: 30px;
+
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(36, 28, 29);
+    text-align: center;
+}
+#personal select {
+     border-radius: 10px;
+     
+}
+
+.men {
+    margin: 0 40% 50px;
+}
+.men select {
+    margin: 10px 10px;
+}
+
+#personal input {
+    
+    border-radius: 10px;
+    padding: 0 30px;
+    margin: 0 20px 10px;
+}
+
+#personal option {
+    padding: 0 30px;
+    text-align: center;
+}
+
+div .anreise {
+   margin: 50px 30%;
+   border-radius: 10px;
+   
+}
+
+.anreise input {
+    border-radius: 30px;
+    background-color: rgb(192, 172, 212);
+    margin: 5px;
+    
+}
+
+div .room{
+    background-color: rgb(212, 136, 127);
+    margin: 50px 50px;
+    padding: 20px;
+}
+
+div .wellness {
+    background-color: rgb(139, 219, 179);
+    margin: 50px 50px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.payment {
+    padding: 10px;
+    margin: 50px 30px 50px;
+    border-radius: 5px;
+    border-style: dotted;
+  
+
+   
+}
+
+#bild img {
+    width: auto;
+    height: 200px;
+}
+div {
+    border-style: ridge;
+}
